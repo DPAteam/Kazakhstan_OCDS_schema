@@ -1,0 +1,1 @@
+# Kazakhstan_OCDS_schema
