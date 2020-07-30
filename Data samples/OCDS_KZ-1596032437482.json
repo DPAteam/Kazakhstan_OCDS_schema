@@ -1,0 +1,2290 @@
+{
+	"uri": "https://ows.goszakup.gov.kz/ocds/",
+	"extensions": [
+		"https://raw.githubusercontent.com/open-contracting/ocds_lots_extension/v1.1.1/extension.json",
+		"https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/v1.1.1/extension.json",
+		"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/v1.1.1/extension.json"
+	],
+	"version": "1.1",
+	"publisher": {
+		"name": "Министерство финансов Республики Казахстан",
+		"scheme": "KZ-TC",
+		"id": "201040000013",
+		"uri": "https://www.goszakup.gov.kz/"
+	},
+	"publishedDate": "2020-07-29T20:20:28+06:00",
+	"releases": [
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9823294",
+			"id": "ocds-hdexwj-announce-cntr-9823294",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "051040003263",
+						"legalName": "Акционерное общество \"Өрт сөндіруші\"",
+						"uri": "kazfire.kz"
+					},
+					"name": "АО \"Өрт сөндіруші\"",
+					"id": "KZ-TC-BIN-051040003263",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "Жилой массив ШУБАР , Улица АЛПАМЫС БАТЫР",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "020440001144",
+						"legalName": "Акционерное общество \"КазТрансГаз Аймак\"",
+						"uri": "http://www.ktga.kz/ru/company/company_structure/proizvodstvennye-filialy/#"
+					},
+					"name": "АО \"КазТрансГаз Аймак\"",
+					"id": "KZ-TC-BIN-020440001144",
+					"address": {
+						"countryName": "КАЗАХСТАН",
+						"streetAddress": "Әлихан Бөкейхан",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "АО \"Өрт сөндіруші\"",
+					"id": "KZ-TC-BIN-051040003263"
+				}
+			],
+			"plannings": [
+				{
+					"id": 29422552,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "goods",
+					"procurementMethodRationale": "monopolyElectricity"
+				}
+			],
+			"tender": {
+				"id": "051040003263/200367/00",
+				"tenderNumber": "051040003263/200367/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "АО \"Өрт сөндіруші\"",
+					"id": "KZ-TC-BIN-051040003263"
+				},
+				"value": {
+					"amount": 283459.21,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"monopolyElectricity"
+				],
+				"mainProcurementCategory": "goods",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 29422552,
+						"relatedPlan": "plan-29422552",
+						"relatedLot": "lot-34038662",
+						"description": "Сетевой газ",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "062010.200.000001",
+							"description": "Газ природный"
+						},
+						"quantity": 21,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "103 м3",
+							"name": "Тысяча метров кубических",
+							"value": {
+								"amount": 12978.9,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-34038662",
+						"title": "Газ природный",
+						"description": "газообразный",
+						"status": "active",
+						"value": {
+							"amount": 12978.9,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-051040003263",
+							"name": "АО \"Өрт сөндіруші\""
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 105386127,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/105386127",
+						"datePublished": "2020-04-16T17:08:29+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9823294-award-30895",
+					"status": "active",
+					"date": "2020-04-24T18:46:11+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9823294,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9823294-award-30895"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-31T00:00:00+06:00"
+					},
+					"value": {
+						"amount": 283459.21,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-31T00:00:00+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": null,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/",
+							"datePublished": "2020-04-24T18:46:11+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 29422552,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "062010.200.000001",
+								"description": "Газ природный"
+							},
+							"quantity": "21.84",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "103 м3",
+								"name": "Тысяча метров кубических",
+								"value": {
+									"amount": 12978.9,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "151010000",
+									"locality": "Актюбинская область, г.Актобе"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9808951",
+			"id": "ocds-hdexwj-announce-cntr-9808951",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "091040011707",
+						"legalName": "Государственное коммунальное казенное предприятие \"Ясли-сад № 39 \"Меруерт\" акимата города Нур-Султан"
+					},
+					"name": "ГККП \"Ясли-сад № 39 \"Меруерт\" акимата города Нур-Султан",
+					"id": "KZ-TC-BIN-091040011707",
+					"address": {
+						"countryName": "КАЗАХСТАН",
+						"streetAddress": "АРДАГЕРЛЕР, жилой массив Коктал",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "040940002605",
+						"legalName": "Товарищество с ограниченной ответственностью \"Астанаэнергосбыт\"",
+						"uri": "www.astanaenergosbyt.kz"
+					},
+					"name": "ТОО \"Астанаэнергосбыт\"",
+					"id": "KZ-TC-BIN-040940002605",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Астана",
+						"streetAddress": "Проспект Б. МОМЫШУЛЫ",
+						"postalCode": "473000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "ГККП \"Ясли-сад № 39 \"Меруерт\" акимата города Нур-Султан",
+					"id": "KZ-TC-BIN-091040011707"
+				}
+			],
+			"plannings": [
+				{
+					"id": 28421590,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "goods",
+					"procurementMethodRationale": "monopolyElectricity"
+				}
+			],
+			"tender": {
+				"id": "091040011707/200042/00",
+				"tenderNumber": "091040011707/200042/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "ГККП \"Ясли-сад № 39 \"Меруерт\" акимата города Нур-Султан",
+					"id": "KZ-TC-BIN-091040011707"
+				},
+				"value": {
+					"amount": 982158.83,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"monopolyElectricity"
+				],
+				"mainProcurementCategory": "goods",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 28421590,
+						"relatedPlan": "plan-28421590",
+						"relatedLot": "lot-28421590",
+						"description": "Электроэнергия",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "351110.100.000000",
+							"description": "Электроэнергия"
+						},
+						"quantity": 75654,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "kW",
+							"name": "Киловатт",
+							"value": {
+								"amount": 14.54,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-28421590",
+						"title": "Электроэнергия",
+						"description": "для собственного потребления",
+						"status": "active",
+						"value": {
+							"amount": 14.54,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-091040011707",
+							"name": "ГККП \"Ясли-сад № 39 \"Меруерт\" акимата города Нур-Султан"
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 102214970,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/102214970",
+						"datePublished": "2020-03-11T12:24:02+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9808951-award-28776",
+					"status": "active",
+					"date": "2020-03-11T12:26:44+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9808951,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9808951-award-28776"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-30T00:00:00+06:00"
+					},
+					"value": {
+						"amount": 982158.83,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-30T00:00:00+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 102215667,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/102215667",
+							"datePublished": "2020-03-11T12:26:21+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 28421590,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "351110.100.000000",
+								"description": "Электроэнергия"
+							},
+							"quantity": "75654.6",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "kW",
+								"name": "Киловатт",
+								"value": {
+									"amount": 14.54,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711310000",
+									"locality": "г.Нур-Султан, район \"Сарыарка\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9976200",
+			"id": "ocds-hdexwj-announce-cntr-9976200",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "200340006704",
+						"legalName": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+					},
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "САКЕН СЕЙФУЛЛИН",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "941240001934",
+						"legalName": "Товарищество с ограниченной ответственностью \"Астанапроект\""
+					},
+					"name": "ТОО \"Астанапроект\"",
+					"id": "KZ-TC-BIN-941240001934",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Астана",
+						"streetAddress": "ПРОСПЕКТ РЕСПУБЛИКИ",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				}
+			],
+			"plannings": [
+				{
+					"id": 23372636,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "multiYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "constructionSupervision",
+					"fundingSource": "budget",
+					"departmentalCode": "3730002",
+					"projectAdministratorID": "373",
+					"projectAdministratorName": "Управление строительства города республиканского значения, столицы",
+					"budget": [
+						{
+							"project": "Проектирование и (или) строительство, реконструкция жилья коммунального жилищного фонда",
+							"projectID": 2119157,
+							"subproject": "За счет средств местного бюджета",
+							"subprojectID": 2119162,
+							"subsubprojectID": "431",
+							"subsubprojectName": "Строительство новых объектов и реконструкция имеющихся объектов",
+							"value": {
+								"amount": 464293.75,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						},
+						{
+							"project": "Проектирование и (или) строительство, реконструкция жилья коммунального жилищного фонда",
+							"projectID": 738559,
+							"subproject": "За счет средств местного бюджета",
+							"subprojectID": 742013,
+							"subsubprojectID": "431",
+							"subsubprojectName": "Строительство новых объектов и реконструкция имеющихся объектов",
+							"value": {
+								"amount": 284571.43,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					]
+				}
+			],
+			"tender": {
+				"id": "921240000437/180192/05",
+				"tenderNumber": "921240000437/180192/05",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				},
+				"value": {
+					"amount": 1989638.39,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"constructionSupervision"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 23372636,
+						"relatedPlan": "plan-23372636",
+						"relatedLot": "lot-28771267",
+						"description": "Услуги авторского надзора по объекту «Строительство жилых комплексов в рамках программы «Доступное жилье – 2020» (для очередников и молодой семьи) (Строительство жилых комплексов южнее проспекта Тлендиева вдоль р.Сарыбулак лот Б-7)»",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "71.12.20.000.000.00.0777.000000000000",
+							"description": "Услуги по авторскому/техническому надзору/управлению проектами, работами"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 1812566.07,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-28771267",
+						"title": "Услуги по авторскому/техническому надзору/управлению проектами, работами",
+						"description": "Услуги по авторскому/техническому надзору/управлению проектами, работами",
+						"status": "active",
+						"value": {
+							"amount": 1812566.07,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-200340006704",
+							"name": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 61241999,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/61241999",
+						"datePublished": "2018-08-01T18:01:47+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9976200-award-38274",
+					"status": "active",
+					"date": "2020-04-24T18:46:11+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 5975793,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9976200-award-38274"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-09T10:29:41+06:00"
+					},
+					"value": {
+						"amount": 1989638.39,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": true,
+					"dateSigned": "2019-12-09T10:29:41+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": null,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/",
+							"datePublished": "2020-04-24T18:46:11+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 23372636,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "71.12.20.000.000.00.0777.000000000000",
+								"description": "Услуги по авторскому/техническому надзору/управлению проектами, работами"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 1812566.07,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711310000",
+									"locality": "г.Нур-Султан, район \"Сарыарка\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9901316",
+			"id": "ocds-hdexwj-announce-cntr-9901316",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "200340006704",
+						"legalName": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+					},
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "САКЕН СЕЙФУЛЛИН",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "061240008471",
+						"legalName": "Товарищество с ограниченной ответственностью \"G.T.P\" (Gas.Trans.Projekt.)"
+					},
+					"name": "ТОО \"G.T.P\" (Gas.Trans.Projekt.)",
+					"id": "KZ-TC-BIN-061240008471",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Алматы",
+						"streetAddress": "Бурундайская",
+						"postalCode": "050000",
+						"region": "г.Алматы"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				}
+			],
+			"plannings": [
+				{
+					"id": 21573539,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "multiYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "constructionSupervision",
+					"fundingSource": "budget",
+					"departmentalCode": "3730002",
+					"projectAdministratorID": "373",
+					"projectAdministratorName": "Управление строительства города республиканского значения, столицы",
+					"budget": [
+						{
+							"project": "Проектирование, развитие и (или) обустройство  инженерно-коммуникационной инфраструктуры",
+							"projectID": 738562,
+							"subproject": "За счет средств местного бюджета",
+							"subprojectID": 742045,
+							"subsubprojectID": "431",
+							"subsubprojectName": "Строительство новых объектов и реконструкция имеющихся объектов",
+							"value": {
+								"amount": 0,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					]
+				}
+			],
+			"tender": {
+				"id": "921240000437/190011/02",
+				"tenderNumber": "921240000437/190011/02",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				},
+				"value": {
+					"amount": 270240,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"constructionSupervision"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 21573539,
+						"relatedPlan": "plan-21573539",
+						"relatedLot": "lot-28643401",
+						"description": "Услуги по авторскому надзору «Строительство многоквартирного жилого комплекса со встроенными помещениями и паркингом в районе пересечения улиц Р. Кошкарбаева и А 104 (проектное наименование). Наружные сети электроснабжения»",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "711220.000.000000",
+							"description": "Услуги по авторскому/техническому надзору"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 270240,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-28643401",
+						"title": "Услуги по авторскому/техническому надзору",
+						"description": "Услуги по авторскому/техническому надзору",
+						"status": "active",
+						"value": {
+							"amount": 270240,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-200340006704",
+							"name": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 69222326,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/69222326",
+						"datePublished": "2019-01-18T11:54:00+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9901316-award-114164",
+					"status": "active",
+					"date": "2020-04-24T18:46:11+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 6966198,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9901316-award-114164"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-27T17:27:35+06:00"
+					},
+					"value": {
+						"amount": 270240,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": true,
+					"dateSigned": "2019-12-27T17:27:35+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": null,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/",
+							"datePublished": "2020-04-24T18:46:11+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 21573539,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "711220.000.000000",
+								"description": "Услуги по авторскому/техническому надзору"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 270240,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711110000",
+									"locality": "г.Нур-Султан, район \"Алматы\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9833726",
+			"id": "ocds-hdexwj-announce-cntr-9833726",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "040540003287",
+						"legalName": "Республиканское государственное учреждение «Национальная академическая библиотека Республики Казахстан в городе Астане» Министерства культуры и спорта Республики Казахстан"
+					},
+					"name": "РГУ «Национальная академическая библиотека Республики Казахстан в городе Астане» Министерства культуры и спорта Республики Казахстан",
+					"id": "KZ-TC-BIN-040540003287",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Астана",
+						"streetAddress": "ДОСТЫК",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "040940002605",
+						"legalName": "Товарищество с ограниченной ответственностью \"Астанаэнергосбыт\"",
+						"uri": "www.astanaenergosbyt.kz"
+					},
+					"name": "ТОО \"Астанаэнергосбыт\"",
+					"id": "KZ-TC-BIN-040940002605",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Астана",
+						"streetAddress": "Проспект Б. МОМЫШУЛЫ",
+						"postalCode": "473000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "РГУ «Национальная академическая библиотека Республики Казахстан в городе Астане» Министерства культуры и спорта Республики Казахстан",
+					"id": "KZ-TC-BIN-040540003287"
+				}
+			],
+			"plannings": [
+				{
+					"id": 29197893,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "monopolyElectricity",
+					"fundingSource": "budget",
+					"departmentalCode": "2400004",
+					"projectAdministratorID": "240",
+					"projectAdministratorName": "Министерство культуры и спорта Республики Казахстан  ",
+					"budget": [
+						{
+							"project": "Повышение конкурентоспособности сферы культуры и искусства, сохранение, изучение и популяризация казахстанского культурного наследия и повышение эффективности реализации архивного дела",
+							"projectID": 2111938,
+							"subproject": "Обеспечение доступа к информации в публичных библиотеках республиканского значения",
+							"subprojectID": 2111950,
+							"subsubprojectID": "151",
+							"subsubprojectName": "Оплата коммунальных услуг",
+							"value": {
+								"amount": 13066071.43,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					]
+				}
+			],
+			"tender": {
+				"id": "040540003287/200041/00",
+				"tenderNumber": "040540003287/200041/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "РГУ «Национальная академическая библиотека Республики Казахстан в городе Астане» Министерства культуры и спорта Республики Казахстан",
+					"id": "KZ-TC-BIN-040540003287"
+				},
+				"value": {
+					"amount": 13066071.43,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"monopolyElectricity"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 29197893,
+						"relatedPlan": "plan-29197893",
+						"relatedLot": "lot-29197893",
+						"description": "Услуги по передаче/распределению электроэнергии",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "351310.100.000000",
+							"description": "Услуги по передаче/распределению электроэнергии"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 13066071.43,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-29197893",
+						"title": "Услуги по передаче/распределению электроэнергии",
+						"description": "Услуги по передаче/распределению электроэнергии",
+						"status": "active",
+						"value": {
+							"amount": 13066071.43,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-040540003287",
+							"name": "РГУ «Национальная академическая библиотека Республики Казахстан в городе Астане» Министерства культуры и спорта Республики Казахстан"
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 104958702,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/104958702",
+						"datePublished": "2020-04-10T19:32:28+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9833726-award-28776",
+					"status": "active",
+					"date": "2020-04-10T19:50:37+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9833726,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9833726-award-28776"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2020-04-23T19:38:09+06:00"
+					},
+					"value": {
+						"amount": 13066071.43,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2020-04-23T19:38:09+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 104959426,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/104959426",
+							"datePublished": "2020-04-10T19:50:04+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 29197893,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "351310.100.000000",
+								"description": "Услуги по передаче/распределению электроэнергии"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 13066071.43,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711210000",
+									"locality": "г.Нур-Султан, район \"Есиль\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9910748",
+			"id": "ocds-hdexwj-announce-cntr-9910748",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "200340006704",
+						"legalName": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+					},
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "САКЕН СЕЙФУЛЛИН",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "160440007161",
+						"legalName": "Некоммерческое акционерное общество «Государственная корпорация «Правительство для граждан»",
+						"uri": "www.gov4c.kz"
+					},
+					"name": "Некоммерческое АО «Государственная корпорация «Правительство для граждан»",
+					"id": "KZ-TC-BIN-160440007161",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Астана",
+						"streetAddress": "Проспект МАНГИЛИК ЕЛ",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				}
+			],
+			"plannings": [
+				{
+					"id": 22677187,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "belowThreshold",
+					"fundingSource": "budget",
+					"departmentalCode": "3730002",
+					"projectAdministratorID": "373",
+					"projectAdministratorName": "Управление строительства города республиканского значения, столицы",
+					"budget": [
+						{
+							"project": "Услуги по реализации государственной политики в сфере строительства коммунальной собственности на местном уровне",
+							"projectID": 2118600,
+							"subproject": "За счет средств местного бюджета",
+							"subprojectID": 2122729,
+							"subsubprojectID": "159",
+							"subsubprojectName": "Оплата прочих услуг и работ",
+							"value": {
+								"amount": 22015.76,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						},
+						{
+							"project": "Услуги по реализации государственной политики на местном уровне в области строительства",
+							"projectID": 732145,
+							"subproject": "За счет средств местного бюджета",
+							"subprojectID": 2117990,
+							"subsubprojectID": "159",
+							"subsubprojectName": "Оплата прочих услуг и работ",
+							"value": {
+								"amount": 67269.95,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					]
+				}
+			],
+			"tender": {
+				"id": "991040001460/190078/02",
+				"tenderNumber": "991040001460/190078/02",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "Государственное учреждение \"Управление строительства города Нур-Султан\"",
+					"id": "KZ-TC-BIN-200340006704"
+				},
+				"value": {
+					"amount": 22015.76,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"belowThreshold"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 22677187,
+						"relatedPlan": "plan-22677187",
+						"relatedLot": "lot-27930216",
+						"description": "Услуги по технической инвентаризации",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "749020.000.000119",
+							"description": "Услуги по паспортизации/инвентаризации"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 89285.71,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-27930216",
+						"title": "Услуги по паспортизации/инвентаризации",
+						"description": "Услуги по паспортизации/инвентаризации (объектов/систем/путей, дорог/мест/ТМЦ/источников/отходов и т.п.)",
+						"status": "active",
+						"value": {
+							"amount": 89285.71,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-200340006704",
+							"name": "Государственное учреждение \"Управление строительства города Нур-Султан\""
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 88476616,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/88476616",
+						"datePublished": "2019-10-07T18:01:31+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9910748-award-124932",
+					"status": "active",
+					"date": "2020-04-24T18:46:11+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 8614915,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9910748-award-124932"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-19T16:15:23+06:00"
+					},
+					"value": {
+						"amount": 22015.76,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-19T16:15:23+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": null,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/",
+							"datePublished": "2020-04-24T18:46:11+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 22677187,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "749020.000.000119",
+								"description": "Услуги по паспортизации/инвентаризации"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 89285.71,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711310000",
+									"locality": "г.Нур-Султан, район \"Сарыарка\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9974706",
+			"id": "ocds-hdexwj-announce-cntr-9974706",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "050140007287",
+						"legalName": "Государственное учреждение \"Отдел жилищно-комунального хозяйство, пассажирского транспорта и автомобильных дорог акимата Созакского района\""
+					},
+					"name": "ГУ \"Отдел жилищно-комунального хозяйство, пассажирского транспорта и автомобильных дорог акимата Созакского района\"",
+					"id": "KZ-TC-BIN-050140007287",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Чулаккурган",
+						"streetAddress": "ЖИБЕК ЖОЛЫ",
+						"postalCode": "161000",
+						"region": "Туркестанская область"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "080940016002",
+						"legalName": "Товарищество с ограниченной ответственностью \"Damina Proekt\""
+					},
+					"name": "ТОО \"Damina Proekt\"",
+					"id": "KZ-TC-BIN-080940016002",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Тараз",
+						"streetAddress": "Микрорайон ЖАЙЛАУ",
+						"postalCode": "080000",
+						"region": "Жамбылская область"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "ГУ \"Отдел жилищно-комунального хозяйство, пассажирского транспорта и автомобильных дорог акимата Созакского района\"",
+					"id": "KZ-TC-BIN-050140007287"
+				}
+			],
+			"plannings": [
+				{
+					"id": 29713838,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "multiYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "emergency",
+					"fundingSource": "budget",
+					"departmentalCode": "4583503",
+					"projectAdministratorID": "458",
+					"projectAdministratorName": "Отдел жилищно-коммунального хозяйства, пассажирского транспорта и автомобильных дорог района (города областного значения)",
+					"budget": [
+						{
+							"project": "Развитие системы водоснабжения и водоотведения в сельских населенных пунктах",
+							"projectID": 736334,
+							"subproject": "За счет трансфертов из республиканского бюджета",
+							"subprojectID": 741895,
+							"subsubprojectID": "431",
+							"subsubprojectName": "Строительство новых объектов и реконструкция имеющихся объектов",
+							"value": {
+								"amount": 1479689,
+								"prepaymentPercent": 0,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					]
+				}
+			],
+			"tender": {
+				"id": "050140007287/190154/00",
+				"tenderNumber": "050140007287/190154/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "ГУ \"Отдел жилищно-комунального хозяйство, пассажирского транспорта и автомобильных дорог акимата Созакского района\"",
+					"id": "KZ-TC-BIN-050140007287"
+				},
+				"value": {
+					"amount": 2486350,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"emergency"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 29713838,
+						"relatedPlan": "plan-29713838",
+						"relatedLot": "lot-29713838",
+						"description": "Услуги по авторскому надзору для строительство водозаборных сооружений мкр. Терискей в селе Шолаккорган, Созакского района",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "711220.000.000000",
+							"description": "Услуги по авторскому/техническому надзору"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 2486350,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-29713838",
+						"title": "Услуги по авторскому/техническому надзору",
+						"description": "Услуги по авторскому/техническому надзору",
+						"status": "active",
+						"value": {
+							"amount": 2486350,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-050140007287",
+							"name": "ГУ \"Отдел жилищно-комунального хозяйство, пассажирского транспорта и автомобильных дорог акимата Созакского района\""
+						}
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9974706-award-270877",
+					"status": "active",
+					"date": "2019-12-20T17:04:16+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9102742,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9974706-award-270877"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-19T00:00:00+06:00"
+					},
+					"value": {
+						"amount": 2486350,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": true,
+					"dateSigned": "2019-12-19T00:00:00+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 93923936,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/93923936",
+							"datePublished": "2019-12-20T17:04:04+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 29713838,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "711220.000.000000",
+								"description": "Услуги по авторскому/техническому надзору"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 2486350,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "615630100",
+									"locality": "Туркестанская область, Сузакский район, с.Чулаккурган"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9071113",
+			"id": "ocds-hdexwj-announce-cntr-9071113",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "190140033600",
+						"legalName": "Некоммерческое акционерное общество \"Медицинский университет Караганды\"",
+						"uri": "www.kgmu.kz"
+					},
+					"name": "НАО \"Медицинский университет Караганды\"",
+					"id": "KZ-TC-BIN-190140033600",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Караганда",
+						"streetAddress": "Гоголя",
+						"postalCode": "100000",
+						"region": "Карагандинская область"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "060640007732",
+						"legalName": "Товарищество с ограниченной ответственностью \"Soft-M\""
+					},
+					"name": "ТОО \"Soft-M\"",
+					"id": "KZ-TC-BIN-060640007732",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Караганда",
+						"streetAddress": "Таттимбета",
+						"postalCode": "100000",
+						"region": "Карагандинская область"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "НАО \"Медицинский университет Караганды\"",
+					"id": "KZ-TC-BIN-190140033600"
+				}
+			],
+			"plannings": [
+				{
+					"id": 28975593,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "belowThreshold"
+				},
+				{
+					"id": 28975652,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "belowThreshold"
+				},
+				{
+					"id": 28975665,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "belowThreshold"
+				}
+			],
+			"tender": {
+				"id": "190140033600/200005/00",
+				"tenderNumber": "190140033600/200005/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "НАО \"Медицинский университет Караганды\"",
+					"id": "KZ-TC-BIN-190140033600"
+				},
+				"value": {
+					"amount": 592000,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"belowThreshold",
+					"belowThreshold",
+					"belowThreshold"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 28975593,
+						"relatedPlan": "plan-28975593",
+						"relatedLot": "lot-28975593",
+						"description": "Adobe Photoshop CC 3 лицензии",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "582950.000.000001",
+							"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 355148,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					},
+					{
+						"id": 28975652,
+						"relatedPlan": "plan-28975652",
+						"relatedLot": "lot-28975652",
+						"description": "Adobe InDesign CC 1 лицензия",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "582950.000.000001",
+							"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 118426,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					},
+					{
+						"id": 28975665,
+						"relatedPlan": "plan-28975665",
+						"relatedLot": "lot-28975665",
+						"description": "Adobe Illustrator CC 1 лицензия",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "582950.000.000001",
+							"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 118426,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-28975593",
+						"title": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"description": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"status": "active",
+						"value": {
+							"amount": 355148,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-190140033600",
+							"name": "НАО \"Медицинский университет Караганды\""
+						}
+					},
+					{
+						"id": "lot-28975652",
+						"title": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"description": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"status": "active",
+						"value": {
+							"amount": 118426,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-190140033600",
+							"name": "НАО \"Медицинский университет Караганды\""
+						}
+					},
+					{
+						"id": "lot-28975665",
+						"title": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"description": "Услуги по предоставлению лицензий на право использования программного обеспечения",
+						"status": "active",
+						"value": {
+							"amount": 118426,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-190140033600",
+							"name": "НАО \"Медицинский университет Караганды\""
+						}
+					}
+				],
+				"documents": [
+					{
+						"id": 93557542,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/93557542",
+						"datePublished": "2019-12-14T14:54:28+06:00"
+					},
+					{
+						"id": 93557551,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/93557551",
+						"datePublished": "2019-12-14T14:54:57+06:00"
+					},
+					{
+						"id": 93557565,
+						"documentType": "technicalSpecifications",
+						"url": "https://v3bl.goszakup.gov.kz/files/download_file/93557565",
+						"datePublished": "2019-12-14T14:55:25+06:00"
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9071113-award-27124",
+					"status": "active",
+					"date": "2019-12-18T14:30:53+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9071113,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9071113-award-27124"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-26T12:20:01+06:00"
+					},
+					"value": {
+						"amount": 592000,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-26T12:20:01+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 94339086,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/94339086",
+							"datePublished": "2019-12-26T12:23:05+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 28975593,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "582950.000.000001",
+								"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 355148,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "351013100",
+									"locality": "Карагандинская область, г.Караганда, район им.Казыбек би"
+								}
+							]
+						},
+						{
+							"id": 28975652,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "582950.000.000001",
+								"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 118426,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "351013100",
+									"locality": "Карагандинская область, г.Караганда, район им.Казыбек би"
+								}
+							]
+						},
+						{
+							"id": 28975665,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "582950.000.000001",
+								"description": "Услуги по предоставлению лицензий на право использования программного обеспечения"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 118426,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "351013100",
+									"locality": "Карагандинская область, г.Караганда, район им.Казыбек би"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9901889",
+			"id": "ocds-hdexwj-announce-cntr-9901889",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "180340005313",
+						"legalName": "Республиканское государственное предприятие на праве хозяйственного ведения \"Государственная радиочастотная служба\" Министерства цифрового развития,инноваций и аэрокосмической промышленности Республики Казахстан"
+					},
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "АМАНГЕЛДИ ИМАНОВ",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-IIN",
+						"id": "304065322245",
+						"legalName": "Mediafon Datapro, UAB"
+					},
+					"name": "Mediafon Datapro, UAB",
+					"id": "KZ-TC-IIN-304065322245",
+					"address": {
+						"countryName": "ЛИТВА"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313"
+				}
+			],
+			"plannings": [
+				{
+					"id": 32262078,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "intellectualProperty"
+				}
+			],
+			"tender": {
+				"id": "180340005313/200149/00",
+				"tenderNumber": "180340005313/200149/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313"
+				},
+				"value": {
+					"amount": 75600000,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"intellectualProperty"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 32262078,
+						"relatedPlan": "plan-32262078",
+						"relatedLot": "lot-32262078",
+						"description": "Техническая поддержка ПО БДИК \n\n\n\n\n\n\n\n\n\n\n\n",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "620230.000.000001",
+							"description": "Услуги по сопровождению и технической поддержке информационной системы"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 75600000,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-32262078",
+						"title": "Услуги по сопровождению и технической поддержке информационной системы",
+						"description": "Услуги по сопровождению и технической поддержке информационной системы",
+						"status": "active",
+						"value": {
+							"amount": 75600000,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-180340005313",
+							"name": "РГП \"ГРС\""
+						}
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9901889-award-208598",
+					"status": "active",
+					"date": "2020-03-27T18:06:58+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9901889,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9901889-award-208598"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-11T00:00:00+06:00"
+					},
+					"value": {
+						"amount": 75600000,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-11T00:00:00+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 103777397,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/103777397",
+							"datePublished": "2020-03-27T18:06:45+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 32262078,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "620230.000.000001",
+								"description": "Услуги по сопровождению и технической поддержке информационной системы"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 75600000,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711410000",
+									"locality": "г.Нур-Султан, район \"Байқоңыр\""
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ocid": "ocds-hdexwj-announce-cntr-9901866",
+			"id": "ocds-hdexwj-announce-cntr-9901866",
+			"date": "2020-04-24T18:46:11+06:00",
+			"language": "ru",
+			"tag": [
+				"compiled"
+			],
+			"initiationType": "tender",
+			"parties": [
+				{
+					"identifier": {
+						"scheme": "KZ-TC-BIN",
+						"id": "180340005313",
+						"legalName": "Республиканское государственное предприятие на праве хозяйственного ведения \"Государственная радиочастотная служба\" Министерства цифрового развития,инноваций и аэрокосмической промышленности Республики Казахстан"
+					},
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313",
+					"address": {
+						"countryName": "Казахстан",
+						"locality": "Нур-Султан",
+						"streetAddress": "АМАНГЕЛДИ ИМАНОВ",
+						"postalCode": "010000",
+						"region": "г.Нур-Султан"
+					},
+					"roles": [
+						"buyer",
+						"procuringEntity"
+					]
+				},
+				{
+					"identifier": {
+						"scheme": "KZ-TC-IIN",
+						"id": "304065322245",
+						"legalName": "Mediafon Datapro, UAB"
+					},
+					"name": "Mediafon Datapro, UAB",
+					"id": "KZ-TC-IIN-304065322245",
+					"address": {
+						"countryName": "ЛИТВА"
+					},
+					"roles": [
+						"supplier"
+					]
+				}
+			],
+			"buyer": [
+				{
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313"
+				}
+			],
+			"plannings": [
+				{
+					"id": 32261912,
+					"procurementMethodDetails": "singleSourcePlan",
+					"isFromAssociationOfDisabled": false,
+					"type": "singleYear",
+					"procurementCategory": "services",
+					"procurementMethodRationale": "intellectualProperty"
+				}
+			],
+			"tender": {
+				"id": "180340005313/200148/00",
+				"tenderNumber": "180340005313/200148/00",
+				"status": "complete",
+				"procuringEntity": {
+					"name": "РГП \"ГРС\"",
+					"id": "KZ-TC-BIN-180340005313"
+				},
+				"value": {
+					"amount": 62785000,
+					"currency": "KZT"
+				},
+				"procurementMethod": "direct",
+				"procurementMethodDetails": "singleSourcePlan",
+				"procurementMethodRationale": [
+					"intellectualProperty"
+				],
+				"mainProcurementCategory": "services",
+				"centralisedProcurement": false,
+				"items": [
+					{
+						"id": 32261912,
+						"relatedPlan": "plan-32261912",
+						"relatedLot": "lot-32261912",
+						"description": "Техническая поддержка ПО ЦБДАН \n\n\n\n\n\n\n\n\n\n\n",
+						"classification": {
+							"scheme": "ENSTRU",
+							"id": "620230.000.000001",
+							"description": "Услуги по сопровождению и технической поддержке информационной системы"
+						},
+						"quantity": 1,
+						"unit": {
+							"scheme": "MKEI",
+							"id": "1 усл",
+							"name": "Одна услуга",
+							"value": {
+								"amount": 62785000,
+								"currency": "KZT",
+								"valueAddedTaxIncluded": false
+							}
+						}
+					}
+				],
+				"lots": [
+					{
+						"id": "lot-32261912",
+						"title": "Услуги по сопровождению и технической поддержке информационной системы",
+						"description": "Услуги по сопровождению и технической поддержке информационной системы",
+						"status": "active",
+						"value": {
+							"amount": 62785000,
+							"currency": "KZT",
+							"valueAddedTaxIncluded": false
+						},
+						"buyer": {
+							"id": "KZ-TC-BIN-180340005313",
+							"name": "РГП \"ГРС\""
+						}
+					}
+				]
+			},
+			"awards": [
+				{
+					"id": "ocds-hdexwj-announce-cntr-9901866-award-208598",
+					"status": "active",
+					"date": "2020-03-27T09:41:07+06:00"
+				}
+			],
+			"contracts": [
+				{
+					"id": 9901866,
+					"status": "active",
+					"awardIDs": [
+						"ocds-hdexwj-announce-cntr-9901866-award-208598"
+					],
+					"guaranteePercent": "3%",
+					"period": {
+						"startDate": "2019-12-11T00:00:00+06:00"
+					},
+					"value": {
+						"amount": 62785000,
+						"currency": "KZT",
+						"valueAddedTaxIncluded": false
+					},
+					"multiAnnual": false,
+					"dateSigned": "2019-12-11T00:00:00+06:00",
+					"treasuryRegistration": false,
+					"documents": [
+						{
+							"id": 103671515,
+							"documentType": "contractSigned",
+							"url": "https://v3bl.goszakup.gov.kz/files/download_file/103671515",
+							"datePublished": "2020-03-27T09:34:38+06:00"
+						}
+					],
+					"items": [
+						{
+							"id": 32261912,
+							"classification": {
+								"scheme": "ENSTRU",
+								"id": "620230.000.000001",
+								"description": "Услуги по сопровождению и технической поддержке информационной системы"
+							},
+							"quantity": "1",
+							"unit": {
+								"scheme": "MKEI",
+								"id": "1 усл",
+								"name": "Одна услуга",
+								"value": {
+									"amount": 62785000,
+									"currency": "KZT",
+									"valueAddedTaxIncluded": false
+								}
+							},
+							"deliveryAddresses": [
+								{
+									"countryName": "КАЗАХСТАН",
+									"percentage": 100,
+									"id": "711410000",
+									"locality": "г.Нур-Султан, район \"Байқоңыр\""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"next_page": {
+		"uri": "https://ows.goszakup.gov.kz/ocds/?offset=2020-04-24T18%3A46%3A11%2B06%3A00",
+		"offset": "2020-04-24T18:46:11+06:00"
+	}
+}
