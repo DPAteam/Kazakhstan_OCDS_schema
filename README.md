@@ -16,4 +16,5 @@ EEC https://docs.google.com/spreadsheets/d/1aSy4xHI5aQok1xF4CgsBP0Mq38ebi2SUj9sj
 API tendering https://ows.goszakup.gov.kz/v2/ocds/?offset=2019-08-01T12%3A12%3A13%2B06%3A00&limit=10
 
 Точка доступа к контрактам: https://ows.goszakup.gov.kz/ocds-contract
+
 Планы: https://ows.goszakup.gov.kz/ocds-plan/
