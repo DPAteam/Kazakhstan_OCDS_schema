@@ -1,6 +1,7 @@
 # Kazakhstan_OCDS_schema
 
 OCDS API https://docs.google.com/spreadsheets/d/1aoDPtE6bN03NQl8s3oMKj9CqIxlq4zdCjIjoco2VByU/edit#gid=550885752
+
 API Objects https://docs.google.com/spreadsheets/d/14qARR3-ujeqGBc1jLSA3PUQoHh7nG1TVEfrz159Xurc/edit#gid=0
 
 Tendering BI https://docs.google.com/spreadsheets/d/1kbQ1EADVcLT6YCijssCCWsH5FiLDQ47NN_IyItcQozk/edit#gid=0
